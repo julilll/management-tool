@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+input[type="color"] {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="color"]:disabled {
+  cursor: unset;
+}
+
+::-webkit-color-swatch {
+  border-radius: 0.5rem;
+  padding: 0;
+  border: none;
+}
+
+::-moz-color-swatch {
+  @apply rounded-lg;
+  padding: 0;
+  border: none;
+}
+
+::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+::-webkit-color-swatch {
+  @apply rounded-lg;
+  border: 0;
+}
+
+::-moz-color-swatch,
+::-moz-focus-inner {
+  border: 0;
+}
+
+::-moz-focus-inner {
+  padding: 0;
+}

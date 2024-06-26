@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": "0",
+      "name": "Car Accident",
+      "description": "Car Accident",
+      "color": "#2ae58d",
+      "_cbu": "John Smith",
+      "_doc": "Wed Jun 26 2024 00:59:15 GMT+0300 (Israel Daylight Time)"
+    },
+    {
+      "id": "1",
+      "name": "Human trafficking for prostitution",
+      "description": "Human trafficking for prostitution",
+      "color": "#fe0bea",
+      "_cbu": "John Smith",
+      "_doc": "Wed Jun 26 2024 00:59:57 GMT+0300 (Israel Daylight Time)"
+    },
+    {
+      "id": "2",
+      "name": "Murder",
+      "description": "Murder",
+      "color": "#753e3e",
+      "_cbu": "John Smith",
+      "_doc": "Wed Jun 26 2024 01:00:14 GMT+0300 (Israel Daylight Time)"
+    },
+    {
+      "id": "3",
+      "name": "Suspect",
+      "description": "Suspect",
+      "color": "#e88411",
+      "_cbu": "John Smith",
+      "_doc": "Wed Jun 26 2024 01:00:59 GMT+0300 (Israel Daylight Time)"
+    },
+    {
+      "id": "4",
+      "name": "Terrorist",
+      "description": "Terrorist",
+      "color": "#fed401",
+      "_cbu": "John Smith",
+      "_doc": "Wed Jun 26 2024 01:01:19 GMT+0300 (Israel Daylight Time)"
+    },
+    {
+      "id": "5",
+      "name": "Terrorist attack",
+      "description": "Terrorist attack",
+      "color": "#f50000",
+      "_cbu": "John Smith",
+      "_doc": "Wed Jun 26 2024 01:01:33 GMT+0300 (Israel Daylight Time)"
+    }
+  ]
+}

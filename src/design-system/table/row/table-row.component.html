@@ -1,0 +1,9 @@
+<div class="flex flex-row gap-2 w-full text-xl font-extralight text-app-font-color bg-white shadow-md rounded-lg p-5 cursor-pointer">
+  <div class="basis-2/12">
+    <div appColorBox [color]="item().color" [size]="32"></div>
+  </div>
+  <p class="basis-full">{{ item().name }}</p>
+  <p class="basis-3/12">{{ item()._doc | date: 'dd/MM/yyyy' }}</p>
+  <p class="basis-3/12">{{ item()._dlu | date: 'dd/MM/yyyy' }}</p>
+  <p class="basis-3/12">{{ item()._cbu }}</p>
+</div>

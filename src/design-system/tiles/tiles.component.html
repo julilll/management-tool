@@ -1,0 +1,6 @@
+<div class="flex gap-5 flex-wrap">
+  @for (item of items(); track item) {
+    <app-tile-card [item]="item" class="mb-3 block" (click)="updateItem.emit(item)"/>
+  }
+</div>
+<app-table-paginator/>

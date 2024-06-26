@@ -1,0 +1,32 @@
+@if (isOpen()) {
+<div class="fixed flex top-0 left-0 w-full h-full justify-end" (click)="closeModal()">
+  <div class="w-2/5 bg-app-modal-bg shadow-xl px-20 py-10 flex flex-col h-100" (click)="$event.stopPropagation()">
+    <div class="flex mb-10 justify-between">
+      <app-title [content]="newItem ? 'Create New' : 'Update'" size="large" />
+      <button (click)="closeModal()">
+        <app-icon name="close" [size]="32" class="fill-app-bluish" />
+      </button>
+    </div>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()" class="flex-1 flex flex-col">
+      <div class="flex gap-3 mb-5">
+        <div class="flex-1">
+          <label for="name">Name</label>
+          <input #autofocus id="name" type="text" name="name" formControlName="name" placeholder="Type tag name...">
+        </div>
+        <div>
+          <label for="color">Color</label>
+          <input class="w-10 h-10" id="color" name="color" type="color" formControlName="color">
+        </div>
+      </div>
+      <div>
+        <label for="description">Tag description</label>
+        <textarea rows="4" id="description" name="de" formControlName="description" placeholder="Type tag description..."></textarea>
+      </div>
+      <div class="flex justify-between mt-auto">
+        <app-button content="cancel" (click)="closeModal()"/>
+        <app-button type="submit" content="save" icon="save" color="success"/>
+      </div>
+    </form>
+  </div>
+</div>
+}
